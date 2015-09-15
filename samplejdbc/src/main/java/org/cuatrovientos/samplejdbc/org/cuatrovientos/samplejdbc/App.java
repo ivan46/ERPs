@@ -41,7 +41,7 @@ public class App {
 			//System.out.print("ID: " + resultSet.getString(1));
 			//System.out.println(" Name: " + resultSet.getString(2));
 			
-			//búsqueda por nombre:
+			//búsqueda por nombre ..:
 			
 			System.out.print("ID: " + resultSet.getInt("id"));
 			System.out.println(" Name: " + resultSet.getString("name"));
