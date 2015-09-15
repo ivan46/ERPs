@@ -36,8 +36,13 @@ public class App {
 		ResultSet resultSet = statement.executeQuery(select);
 		
 		while (resultSet.next()) {
+			//búsqueda por índice:
+			
 			//System.out.print("ID: " + resultSet.getString(1));
 			//System.out.println(" Name: " + resultSet.getString(2));
+			
+			//búsqueda por nombre:
+			
 			System.out.print("ID: " + resultSet.getInt("id"));
 			System.out.println(" Name: " + resultSet.getString("name"));
 		}
