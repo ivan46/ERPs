@@ -10,7 +10,7 @@ import java.sql.Statement;
 /**
  * Simple class to show JDBC basics
  * It uses sqlite as a database
- * @author Iván Galván Erburu.
+ * @author Iván Galván Erburu..
  */
 public class App {
 	public static void main(String[] args) 
